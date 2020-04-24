@@ -1,4 +1,9 @@
-package Company;
+package Company.Services;
+
+import Company.AuditService.Audit;
+import Company.Department.Department;
+import Company.Employee.Employee;
+import Company.*;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -7,22 +12,14 @@ public class Services {
 
     //Sorting array
     public void sortEmployees(Employee[] employees) {
-        Arrays.sort(employees, new sortEmployeesBySalary());
+        Arrays.sort(employees, new SortEmployeesBySalary());
+        Audit.auditData("Sort employees array ");
     }
 
-    class sortEmployeesBySalary implements Comparator<Employee> {
+    class SortEmployeesBySalary implements Comparator<Employee> {
         public int compare (Employee a, Employee b) {
             return (int)a.getSalary() - (int)b.getSalary();
         }
-    }
-
-    //Printing company details
-    public String getCompanyDetails(Company company) {
-        return company.getCompanyName() + " has " +
-                company.getDepartments().length + " departments and " +
-                company.getAssociates().length + " associates and " +
-                company.getProperties().length + " properties and " +
-                company.getSuppliers().length + " suppliers and the CEO is " + company.getCeo().getName();
     }
 
     //Hire new employee in specific department
@@ -46,6 +43,8 @@ public class Services {
 
         aux.setNumberOfEmployees(aux.getNumberOfEmployees() + 1);
         aux.setEmployees(auxEmployees);
+
+        Audit.auditData("Created new employee " + employee.toString());
     }
 
     //Delete specific employee from specific department
@@ -76,6 +75,8 @@ public class Services {
 
         aux.setNumberOfEmployees(aux.getNumberOfEmployees() - 1);
         aux.setEmployees(auxEmployees);
+
+        Audit.auditData("Deleted employee " + employeeName);
     }
 
     //Print specific department

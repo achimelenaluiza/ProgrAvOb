@@ -1,4 +1,7 @@
-package Company;
+package Company.Property;
+
+import Company.Company;
+import Company.Property.Property;
 
 public class Others extends Property {
 

@@ -1,6 +1,11 @@
 package Company;
 
-import java.util.Arrays;
+import Company.AuditService.Audit;
+import Company.Department.Associate;
+import Company.Department.Department;
+import Company.Employee.Employee;
+import Company.Property.Property;
+import Company.Supplier.Supplier;
 
 public class Company {
 
@@ -20,6 +25,12 @@ public class Company {
         this.companyName = companyName;
         this.ceo = ceo;
     }
+
+    public Company(String companyName) {
+        this.companyName = companyName;
+    }
+
+    public void setCeo(Employee ceo) { this.ceo = ceo; }
 
     public void setDepartments(Department[] departments) {
         this.departments = departments;
@@ -79,7 +90,7 @@ public class Company {
         return aux;
     }
 
-    public String AssociatesToString(){
+    public String associatesToString(){
         String aux = new String();
         for (int i = 0; i < this.associates.length; i ++)
         {
@@ -88,7 +99,7 @@ public class Company {
         return aux;
     }
 
-    public String SuppliersToString(){
+    public String suppliersToString(){
         String aux = new String();
         for (int i = 0; i < this.suppliers.length; i ++)
         {
@@ -102,8 +113,17 @@ public class Company {
         return "Company " + companyName.toUpperCase() +
                 "\n " + ceo + "\n" +
                 "\ndepartments :\n" + this.DepartmentsToString() +
-                "\nassociates :\n" + this.AssociatesToString() +
+                "\nassociates :\n" + this.associatesToString() +
                 "\nproperties :\n" + this.PropertiesToString() +
-                "\nsuppliers :\n" + this.SuppliersToString();
+                "\nsuppliers :\n" + this.suppliersToString();
+    }
+
+    //Printing company details
+    public String getCompanyDetails() {
+        return this.getCompanyName() + " has " +
+                this.getDepartments().length + " departments and " +
+                this.getAssociates().length + " associates and " +
+                this.getProperties().length + " properties and " +
+                this.getSuppliers().length + " suppliers and the CEO is " + this.getCeo().getName();
     }
 }

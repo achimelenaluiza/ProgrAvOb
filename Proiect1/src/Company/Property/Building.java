@@ -1,4 +1,7 @@
-package Company;
+package Company.Property;
+
+import Company.Company;
+import Company.Property.Property;
 
 public class Building extends Property {
 
@@ -8,7 +11,6 @@ public class Building extends Property {
     public Building() {
         super();
         this.address = "-";
-        this.monthlyPay = 0;
     }
 
     public Building(String description, String dateOfPurchase, double netWorth, double investment, String address, double monthlyPay) {

@@ -1,4 +1,6 @@
-package Company;
+package Company.Property;
+
+import Company.Company;
 
 public class Property {
 

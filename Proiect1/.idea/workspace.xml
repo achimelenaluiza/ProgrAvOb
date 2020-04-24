@@ -17,12 +17,20 @@
   <component name="ProjectId" id="1a5QVxkWqdFCZbBHaCqIWcsCkW5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Department.class" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Company.Services" />
+      <recent name="Company.Supplier" />
+      <recent name="Company.Department" />
+      <recent name="Company.Employee" />
+      <recent name="Company.Property" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.DefineCompany">
     <configuration name="DefineCompany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -30,7 +38,7 @@
       <module name="Proiect1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Company.*" />
+          <option name="PATTERN" value="Company.Property.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -39,11 +47,11 @@
       </method>
     </configuration>
     <configuration name="Services" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Company.Services" />
+      <option name="MAIN_CLASS_NAME" value="Company.Services.Services" />
       <module name="Proiect1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Company.*" />
+          <option name="PATTERN" value="Company.Property.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,37 +80,53 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="672" y="189" width="652" height="770" key="#com.intellij.ide.util.MemberChooser" timestamp="1586094360918">
+    <state x="672" y="189" width="652" height="770" key="#com.intellij.ide.util.MemberChooser" timestamp="1587760755475">
       <screen x="86" y="34" width="1834" height="1046" />
     </state>
-    <state x="672" y="189" width="652" height="770" key="#com.intellij.ide.util.MemberChooser/86.34.1834.1046@86.34.1834.1046" timestamp="1586094360918" />
+    <state x="672" y="189" width="652" height="770" key="#com.intellij.ide.util.MemberChooser/86.34.1834.1046@86.34.1834.1046" timestamp="1587760755475" />
+    <state x="670" y="292" width="655" height="555" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1587764770055">
+      <screen x="86" y="34" width="1834" height="1046" />
+    </state>
+    <state x="670" y="292" width="655" height="555" key="#com.intellij.ide.util.PackageChooserDialog/86.34.1834.1046@86.34.1834.1046" timestamp="1587764770055" />
+    <state x="710" y="434" width="585" height="263" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587764788147">
+      <screen x="86" y="34" width="1834" height="1046" />
+    </state>
+    <state x="710" y="434" width="585" height="263" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/86.34.1834.1046@86.34.1834.1046" timestamp="1587764788147" />
     <state x="670" y="247" width="655" height="626" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586078518834">
       <screen x="86" y="34" width="1834" height="1046" />
     </state>
     <state x="670" y="247" width="655" height="626" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/86.34.1834.1046@86.34.1834.1046" timestamp="1586078518834" />
-    <state x="733" y="258" width="530" height="605" key="FileChooserDialogImpl" timestamp="1586023159242">
+    <state x="733" y="258" width="530" height="605" key="FileChooserDialogImpl" timestamp="1587758916014">
       <screen x="86" y="34" width="1834" height="1046" />
     </state>
-    <state x="733" y="258" width="530" height="605" key="FileChooserDialogImpl/86.34.1834.1046@86.34.1834.1046" timestamp="1586023159242" />
-    <state width="1778" height="257" key="GridCell.Tab.0.bottom" timestamp="1586096146170">
+    <state x="733" y="258" width="530" height="605" key="FileChooserDialogImpl/86.34.1834.1046@86.34.1834.1046" timestamp="1587758916014" />
+    <state width="1778" height="255" key="GridCell.Tab.0.bottom" timestamp="1587764629117">
       <screen x="86" y="34" width="1834" height="1046" />
     </state>
-    <state width="1778" height="257" key="GridCell.Tab.0.bottom/86.34.1834.1046@86.34.1834.1046" timestamp="1586096146170" />
-    <state width="1778" height="257" key="GridCell.Tab.0.center" timestamp="1586096146170">
+    <state width="1778" height="255" key="GridCell.Tab.0.bottom/86.34.1834.1046@86.34.1834.1046" timestamp="1587764629117" />
+    <state width="1778" height="255" key="GridCell.Tab.0.center" timestamp="1587764629117">
       <screen x="86" y="34" width="1834" height="1046" />
     </state>
-    <state width="1778" height="257" key="GridCell.Tab.0.center/86.34.1834.1046@86.34.1834.1046" timestamp="1586096146170" />
-    <state width="1778" height="257" key="GridCell.Tab.0.left" timestamp="1586096146169">
+    <state width="1778" height="255" key="GridCell.Tab.0.center/86.34.1834.1046@86.34.1834.1046" timestamp="1587764629117" />
+    <state width="1778" height="255" key="GridCell.Tab.0.left" timestamp="1587764629116">
       <screen x="86" y="34" width="1834" height="1046" />
     </state>
-    <state width="1778" height="257" key="GridCell.Tab.0.left/86.34.1834.1046@86.34.1834.1046" timestamp="1586096146169" />
-    <state width="1778" height="257" key="GridCell.Tab.0.right" timestamp="1586096146170">
+    <state width="1778" height="255" key="GridCell.Tab.0.left/86.34.1834.1046@86.34.1834.1046" timestamp="1587764629116" />
+    <state width="1778" height="255" key="GridCell.Tab.0.right" timestamp="1587764629117">
       <screen x="86" y="34" width="1834" height="1046" />
     </state>
-    <state width="1778" height="257" key="GridCell.Tab.0.right/86.34.1834.1046@86.34.1834.1046" timestamp="1586096146170" />
+    <state width="1778" height="255" key="GridCell.Tab.0.right/86.34.1834.1046@86.34.1834.1046" timestamp="1587764629117" />
     <state x="578" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1586072692033">
       <screen x="86" y="34" width="1834" height="1046" />
     </state>
     <state x="578" y="215" key="com.intellij.ide.util.TipDialog/86.34.1834.1046@86.34.1834.1046" timestamp="1586072692033" />
+    <state x="733" y="178" width="529" height="765" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587760726012">
+      <screen x="86" y="34" width="1834" height="1046" />
+    </state>
+    <state x="733" y="178" width="529" height="765" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/86.34.1834.1046@86.34.1834.1046" timestamp="1587760726012" />
+    <state x="583" y="250" key="run.anything.popup" timestamp="1587762649015">
+      <screen x="86" y="34" width="1834" height="1046" />
+    </state>
+    <state x="583" y="250" key="run.anything.popup/86.34.1834.1046@86.34.1834.1046" timestamp="1587762649015" />
   </component>
 </project>

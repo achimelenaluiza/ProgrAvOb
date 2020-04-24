@@ -1,6 +1,9 @@
-package Company;
+package Company.Department;
 
-public class Associate extends Department{
+import Company.Company;
+import Company.Department.Department;
+
+public class Associate extends Department {
 
     private int numMonthsOfContract;
     private String endDate;
@@ -14,7 +17,6 @@ public class Associate extends Department{
     }
 
     public Associate() {
-        this.numMonthsOfContract = 0;
         this.owner = "-";
         this.endDate = "-";
     }

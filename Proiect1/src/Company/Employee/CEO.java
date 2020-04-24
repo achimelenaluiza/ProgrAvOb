@@ -1,6 +1,9 @@
-package Company;
+package Company.Employee;
 
-public class CEO extends Employee{
+import Company.AuditService.Audit;
+import Company.Company;
+
+public class CEO extends Employee {
 
     private double stocksOwned; //"ex: 5.2 %"
     private double personalInvestment; //"ex: 30.000"
@@ -8,8 +11,6 @@ public class CEO extends Employee{
     public CEO() {
 
         super();
-        this.stocksOwned = 0;
-        this.personalInvestment = 0;
     }
 
     public CEO(String name, int age, String hireDate, double salary, String socialSecurityNumber, String boss, double stocksOwned, double personalInvestment) {

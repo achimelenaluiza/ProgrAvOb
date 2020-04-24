@@ -1,4 +1,7 @@
-package Company;
+package Company.Employee;
+
+import Company.AuditService.Audit;
+import Company.Company;
 
 public class Employee {
 
@@ -13,11 +16,8 @@ public class Employee {
 
     public Employee() {
         this.name = "-";
-        this.age = 0;
         this.hireDate = "-";
-        this.salary = 0;
         this.socialSecurityNumber = "-";
-        this.bonus = 0;
         this.reasonForBonus = "-";
         this.boss = "-";
     }

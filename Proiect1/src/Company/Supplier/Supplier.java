@@ -1,4 +1,6 @@
-package Company;
+package Company.Supplier;
+
+import Company.Company;
 
 public class Supplier {
 
@@ -17,8 +19,6 @@ public class Supplier {
     public Supplier() {
         this.name = "-";
         this.offered = "-";
-        this.numMonthsOfContract = 0;
-        this.amountPaid = 0;
     }
 
     @Override

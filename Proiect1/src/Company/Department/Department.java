@@ -1,6 +1,8 @@
-package Company;
+package Company.Department;
 
-import java.util.Arrays;
+import Company.Company;
+import Company.Employee.Employee;
+import Company.AuditService.Audit;
 
 public class Department {
 
@@ -15,7 +17,6 @@ public class Department {
 
     public Department() {
         this.title = "-";
-        this.numberOfEmployees = 0;
     }
 
     public Employee[] getEmployees() {
@@ -38,10 +39,9 @@ public class Department {
         this.numberOfEmployees = numberOfEmployees;
     }
 
-    public String EmployeesToString(){
+    public String EmployeesToString() {
         String aux = new String();
-        for (int i = 0; i < this.employees.length; i ++)
-        {
+        for (int i = 0; i < this.employees.length; i++) {
             aux = aux + employees[i].toString() + "\n";
         }
         return aux;
@@ -52,4 +52,5 @@ public class Department {
         return title +
                 ":\n" + this.EmployeesToString();
     }
+
 }
