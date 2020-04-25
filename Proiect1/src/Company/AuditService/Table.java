@@ -7,7 +7,6 @@ public abstract class Table {
         try {
             return new FileWriter(FileName, append);
         } catch (IOException e) {
-            // FileNotFoundException: no problem (it will be created)
             e.printStackTrace();
         }
         return null;
@@ -22,7 +21,4 @@ public abstract class Table {
         }
     }
     protected abstract String toCsv();
-    protected void updated () {
-        Audit.auditData("Updated " + this);
-    }
 }

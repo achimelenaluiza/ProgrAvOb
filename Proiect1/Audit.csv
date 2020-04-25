@@ -1,5 +1,12 @@
 Created the company: 
-THEcompany has 4 departments and 1 associates and 2 properties and 1 suppliers and the CEO is Chivu Alexandru,2020-04-25 00:43:49.261
-Sort employees array ,2020-04-25 00:43:49.362
-Created new employee Mircescu Vasile age 27, hireDate '01/04/2020', salary 2800.0, socialSecurityNumber '193021290067', bonus 0.0, reasonForBonus 'null', boss 'Coriiu Razvan',2020-04-25 00:43:49.363
-Deleted employee Manole Adina,2020-04-25 00:43:49.364
+THEcompany has 4 departments and 1 associates and 2 properties and 12 employees and 1 suppliers and the CEO is Chivu Alexandru,2020-04-25 21:46:01.294
+Sort employees array ,2020-04-25 21:46:01.403
+Created new employee Mircescu Vasile age 27, hireDate '01/04/2020', salary 2800.0, socialSecurityNumber '193021290067', bonus 0.0, reasonForBonus 'null', boss 'Coriiu Razvan',2020-04-25 21:46:01.404
+Deleted employee Manole Adina,2020-04-25 21:46:01.405
+Deleted department Marketing,2020-04-25 21:46:01.405
+Created new department Marketing,2020-04-25 21:46:01.406
+Bought new property Audi 2014 blue,2020-04-25 21:46:01.407
+Deleted property Audi 2014 blue,2020-04-25 21:46:01.407
+Added new associate Cleaning,2020-04-25 21:46:01.408
+Created new employee in associate department Mala Rosalinda age 54, hireDate '01/01/2019', salary 1800.0, socialSecurityNumber '2551117190039', bonus 0.0, reasonForBonus 'null', boss '-',2020-04-25 21:46:01.409
+Deleted employee from Associate Gavril Ionut,2020-04-25 21:46:01.409

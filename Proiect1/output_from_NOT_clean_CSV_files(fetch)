@@ -1,0 +1,160 @@
+/usr/lib/jvm/java-1.11.0-openjdk-amd64/bin/java -javaagent:/snap/intellij-idea-community/221/lib/idea_rt.jar=33457:/snap/intellij-idea-community/221/bin -Dfile.encoding=UTF-8 -classpath /home/luizaelenaa/Desktop/ProgrAvOb/Proiect1/out/production/Proiect1 Company.DefineCompany
+Chivu Alexandru,42,01/01/2011,11230.0,1780415340017 ,0.0,null,-
+Popescu Maria,28,01/04/2012,3500.0,29210618320033,0.0,null,Chivu Alexandru
+Marinescu Ioana,26,01/04/2017,2700.0,2940618320033,0.0,null,Popescu Maria
+Georgescu Mircea,33,15/07/2015,3200.0,1870613510091,0.0,null,Chivu Alexandru
+Milea Ana,37,15/02/2019,2500.0,2830513410058,0.0,null,Georgescu Mircea
+Gancea Ariana,27,01/04/2018,3200.0,2930905440034,0.0,null,Coriiu Razvan
+Coriiu Razvan,54,12/09/2014,4150.0,1660114340029,0.0,null,Chivu Alexandru
+Manole Adina,29,15/10/2017,3900.0,2910621330094,0.0,null,Coriiu Razvan
+Balasoiu Eduard,25,15/04/2016,3300.0,1960928340066,0.0,null,Coriiu Razvan
+Marin Violeta,40,01/12/2013,4000.0,2800105370078,0.0,null,Chivu Alexandru
+Tanase Marius,50,01/01/2019,2800.0,1551117190039,0.0,null,-
+Gavril Ionut,46,01/01/2019,2800.0,1640430180090,0.0,null,Tanase Marius
+Mircescu Vasile,27,01/04/2020,2800.0,193021290067,0.0,null,Coriiu Razvan
+Mala Rosalinda,54,01/01/2019,1800.0,2551117190039,0.0,null,-
+***
+Marketing,2
+HumanResources,2
+Production,4
+Legal,1
+Transport,2
+Marketing,0
+Cleaning,0
+***
+BMW 2014 red,25/11/2019,10500.0,12000.0
+First floor of office building,16/07/2017,240000.0,223156.0
+Audi 2014 blue,14/04/2020,10500.0,12000.0
+***
+Bookster,books for employees,36,8000.0
+***
+
+INITIAL COMPANY 
+ -----------------
+
+Company THECOMPANY
+ CEO Chivu Alexandru age 42, hireDate '01/01/2011', salary 11230.0, socialSecurityNumber '1780415340017 ', bonus 0.0, reasonForBonus 'null', boss '-', stocksOwned 4.5, personalInvestment 250000.0
+
+departments :
+ --> Marketing:
+Popescu Maria age 28, hireDate '01/04/2012', salary 3500.0, socialSecurityNumber '29210618320033', bonus 200.0, reasonForBonus 'head of department', boss 'Chivu Alexandru'
+Marinescu Ioana age 26, hireDate '01/04/2017', salary 2700.0, socialSecurityNumber '2940618320033', bonus 0.0, reasonForBonus 'null', boss 'Popescu Maria'
+ --> HumanResources:
+Georgescu Mircea age 33, hireDate '15/07/2015', salary 3200.0, socialSecurityNumber '1870613510091', bonus 200.0, reasonForBonus 'head of department', boss 'Chivu Alexandru'
+Milea Ana age 37, hireDate '15/02/2019', salary 2500.0, socialSecurityNumber '2830513410058', bonus 0.0, reasonForBonus 'null', boss 'Georgescu Mircea'
+ --> Production:
+Gancea Ariana age 27, hireDate '01/04/2018', salary 3200.0, socialSecurityNumber '2930905440034', bonus 150.0, reasonForBonus 'special project', boss 'Coriiu Razvan'
+Coriiu Razvan age 54, hireDate '12/09/2014', salary 4150.0, socialSecurityNumber '1660114340029', bonus 200.0, reasonForBonus 'head of department', boss 'Chivu Alexandru'
+Manole Adina age 29, hireDate '15/10/2017', salary 3900.0, socialSecurityNumber '2910621330094', bonus 0.0, reasonForBonus 'null', boss 'Coriiu Razvan'
+Balasoiu Eduard age 25, hireDate '15/04/2016', salary 3300.0, socialSecurityNumber '1960928340066', bonus 0.0, reasonForBonus 'null', boss 'Coriiu Razvan'
+ --> Legal:
+Marin Violeta age 40, hireDate '01/12/2013', salary 4000.0, socialSecurityNumber '2800105370078', bonus 300.0, reasonForBonus 'winning rate > 85%', boss 'Chivu Alexandru'
+
+associates :
+ --> Associate for 24 months, until 01/12/2021, owner Amic SRL
+Transport:
+Tanase Marius age 50, hireDate '01/01/2019', salary 2800.0, socialSecurityNumber '1551117190039', bonus 1000.0, reasonForBonus 'nightshift + head of department', boss '-'
+Gavril Ionut age 46, hireDate '01/01/2019', salary 2800.0, socialSecurityNumber '1640430180090', bonus 0.0, reasonForBonus 'null', boss 'Tanase Marius'
+
+properties :
+ --> Property: BMW 2014 red' dateOfPurchase '25/11/2019', netWorth 10500.0, investment 12000.0
+type 'car', reasonForPurchase 'transportation + publicity' 
+ --> Property: First floor of office building' dateOfPurchase '16/07/2017', netWorth 240000.0, investment 223156.0
+address '445 Mount Eden Road', monthlyPay 25000.0
+
+suppliers :
+ --> Supplier name 'Bookster', offered 'books for employees', for 36 months, amount paid 8000.0
+
+Example of sorting an Employee array based on salary:
+-------------------
+Marketing:
+Marinescu Ioana age 26, hireDate '01/04/2017', salary 2700.0, socialSecurityNumber '2940618320033', bonus 0.0, reasonForBonus 'null', boss 'Popescu Maria'
+Popescu Maria age 28, hireDate '01/04/2012', salary 3500.0, socialSecurityNumber '29210618320033', bonus 200.0, reasonForBonus 'head of department', boss 'Chivu Alexandru'
+
+
+Example of adding a new employee in a specific department:
+-------------------
+Production:
+Gancea Ariana age 27, hireDate '01/04/2018', salary 3200.0, socialSecurityNumber '2930905440034', bonus 150.0, reasonForBonus 'special project', boss 'Coriiu Razvan'
+Coriiu Razvan age 54, hireDate '12/09/2014', salary 4150.0, socialSecurityNumber '1660114340029', bonus 200.0, reasonForBonus 'head of department', boss 'Chivu Alexandru'
+Manole Adina age 29, hireDate '15/10/2017', salary 3900.0, socialSecurityNumber '2910621330094', bonus 0.0, reasonForBonus 'null', boss 'Coriiu Razvan'
+Balasoiu Eduard age 25, hireDate '15/04/2016', salary 3300.0, socialSecurityNumber '1960928340066', bonus 0.0, reasonForBonus 'null', boss 'Coriiu Razvan'
+Mircescu Vasile age 27, hireDate '01/04/2020', salary 2800.0, socialSecurityNumber '193021290067', bonus 0.0, reasonForBonus 'null', boss 'Coriiu Razvan'
+
+
+Example of deleting a specific employee from a specific department:
+-------------------
+Production:
+Gancea Ariana age 27, hireDate '01/04/2018', salary 3200.0, socialSecurityNumber '2930905440034', bonus 150.0, reasonForBonus 'special project', boss 'Coriiu Razvan'
+Coriiu Razvan age 54, hireDate '12/09/2014', salary 4150.0, socialSecurityNumber '1660114340029', bonus 200.0, reasonForBonus 'head of department', boss 'Chivu Alexandru'
+Balasoiu Eduard age 25, hireDate '15/04/2016', salary 3300.0, socialSecurityNumber '1960928340066', bonus 0.0, reasonForBonus 'null', boss 'Coriiu Razvan'
+Mircescu Vasile age 27, hireDate '01/04/2020', salary 2800.0, socialSecurityNumber '193021290067', bonus 0.0, reasonForBonus 'null', boss 'Coriiu Razvan'
+
+
+Example of deleting a specific department:
+-------------------
+THEcompany has 3 departments and 1 associates and 2 properties and 10 employees and 1 suppliers and the CEO is Chivu Alexandru
+
+Example of creating a new specific department with no employees:
+-------------------
+THEcompany has 4 departments and 1 associates and 2 properties and 10 employees and 1 suppliers and the CEO is Chivu Alexandru
+
+Example of adding a new property:
+-------------------
+THEcompany has 4 departments and 1 associates and 3 properties and 10 employees and 1 suppliers and the CEO is Chivu Alexandru
+
+Example of deleting some property:
+-------------------
+THEcompany has 4 departments and 1 associates and 2 properties and 10 employees and 1 suppliers and the CEO is Chivu Alexandru
+
+Example of creating new associate with no employees:
+-------------------
+THEcompany has 4 departments and 2 associates and 2 properties and 10 employees and 1 suppliers and the CEO is Chivu Alexandru
+
+Example of creating new associate employe in associate department:
+-------------------
+THEcompany has 4 departments and 2 associates and 2 properties and 11 employees and 1 suppliers and the CEO is Chivu Alexandru
+
+Example of deleting specific associate employe from associate department:
+-------------------
+THEcompany has 4 departments and 2 associates and 2 properties and 10 employees and 1 suppliers and the CEO is Chivu Alexandru
+
+----------------
+COMPANY AFTER CHANGES 
+----------------
+Company THECOMPANY
+ CEO Chivu Alexandru age 42, hireDate '01/01/2011', salary 11230.0, socialSecurityNumber '1780415340017 ', bonus 0.0, reasonForBonus 'null', boss '-', stocksOwned 4.5, personalInvestment 250000.0
+
+departments :
+ --> HumanResources:
+Georgescu Mircea age 33, hireDate '15/07/2015', salary 3200.0, socialSecurityNumber '1870613510091', bonus 200.0, reasonForBonus 'head of department', boss 'Chivu Alexandru'
+Milea Ana age 37, hireDate '15/02/2019', salary 2500.0, socialSecurityNumber '2830513410058', bonus 0.0, reasonForBonus 'null', boss 'Georgescu Mircea'
+ --> Production:
+Gancea Ariana age 27, hireDate '01/04/2018', salary 3200.0, socialSecurityNumber '2930905440034', bonus 150.0, reasonForBonus 'special project', boss 'Coriiu Razvan'
+Coriiu Razvan age 54, hireDate '12/09/2014', salary 4150.0, socialSecurityNumber '1660114340029', bonus 200.0, reasonForBonus 'head of department', boss 'Chivu Alexandru'
+Balasoiu Eduard age 25, hireDate '15/04/2016', salary 3300.0, socialSecurityNumber '1960928340066', bonus 0.0, reasonForBonus 'null', boss 'Coriiu Razvan'
+Mircescu Vasile age 27, hireDate '01/04/2020', salary 2800.0, socialSecurityNumber '193021290067', bonus 0.0, reasonForBonus 'null', boss 'Coriiu Razvan'
+ --> Legal:
+Marin Violeta age 40, hireDate '01/12/2013', salary 4000.0, socialSecurityNumber '2800105370078', bonus 300.0, reasonForBonus 'winning rate > 85%', boss 'Chivu Alexandru'
+ --> Marketing:
+ No employees
+associates :
+ --> Associate for 24 months, until 01/12/2021, owner Amic SRL
+Transport:
+Tanase Marius age 50, hireDate '01/01/2019', salary 2800.0, socialSecurityNumber '1551117190039', bonus 1000.0, reasonForBonus 'nightshift + head of department', boss '-'
+ --> Associate for 24 months, until 01/12/2021, owner Clear SRL
+Cleaning:
+Mala Rosalinda age 54, hireDate '01/01/2019', salary 1800.0, socialSecurityNumber '2551117190039', bonus 0.0, reasonForBonus 'null', boss '-'
+
+properties :
+ --> Property: BMW 2014 red' dateOfPurchase '25/11/2019', netWorth 10500.0, investment 12000.0
+type 'car', reasonForPurchase 'transportation + publicity' 
+ --> Property: First floor of office building' dateOfPurchase '16/07/2017', netWorth 240000.0, investment 223156.0
+address '445 Mount Eden Road', monthlyPay 25000.0
+
+suppliers :
+ --> Supplier name 'Bookster', offered 'books for employees', for 36 months, amount paid 8000.0
+THEcompany has 4 departments and 2 associates and 2 properties and 10 employees and 1 suppliers and the CEO is Chivu Alexandru
+
+Process finished with exit code 0
+

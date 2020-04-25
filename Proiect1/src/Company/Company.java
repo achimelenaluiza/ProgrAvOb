@@ -111,7 +111,7 @@ public class Company {
     @Override
     public String toString() {
         return "Company " + companyName.toUpperCase() +
-                "\n " + ceo + "\n" +
+                "\n " + ceo.toString() + "\n" +
                 "\ndepartments :\n" + this.DepartmentsToString() +
                 "\nassociates :\n" + this.associatesToString() +
                 "\nproperties :\n" + this.PropertiesToString() +
@@ -124,6 +124,17 @@ public class Company {
                 this.getDepartments().length + " departments and " +
                 this.getAssociates().length + " associates and " +
                 this.getProperties().length + " properties and " +
+                this.getNumberOfEmployees() + " employees and " +
                 this.getSuppliers().length + " suppliers and the CEO is " + this.getCeo().getName();
+    }
+
+    //Printing number of employees
+    public int getNumberOfEmployees() {
+        int nr = 1;
+        for (int i = 0; i < this.getDepartments().length; i++)
+            nr += this.getDepartments()[i].getNumberOfEmployees();
+        for (int i = 0; i < this.getAssociates().length; i++)
+            nr += this.getAssociates()[i].getNumberOfEmployees();
+        return nr;
     }
 }
