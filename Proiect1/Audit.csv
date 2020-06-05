@@ -1,12 +1,28 @@
+
 Created the company: 
-THEcompany has 4 departments and 1 associates and 2 properties and 12 employees and 1 suppliers and the CEO is Chivu Alexandru,2020-04-25 21:46:01.294
-Sort employees array ,2020-04-25 21:46:01.403
-Created new employee Mircescu Vasile age 27, hireDate '01/04/2020', salary 2800.0, socialSecurityNumber '193021290067', bonus 0.0, reasonForBonus 'null', boss 'Coriiu Razvan',2020-04-25 21:46:01.404
-Deleted employee Manole Adina,2020-04-25 21:46:01.405
-Deleted department Marketing,2020-04-25 21:46:01.405
-Created new department Marketing,2020-04-25 21:46:01.406
-Bought new property Audi 2014 blue,2020-04-25 21:46:01.407
-Deleted property Audi 2014 blue,2020-04-25 21:46:01.407
-Added new associate Cleaning,2020-04-25 21:46:01.408
-Created new employee in associate department Mala Rosalinda age 54, hireDate '01/01/2019', salary 1800.0, socialSecurityNumber '2551117190039', bonus 0.0, reasonForBonus 'null', boss '-',2020-04-25 21:46:01.409
-Deleted employee from Associate Gavril Ionut,2020-04-25 21:46:01.409
+THEcompany has 4 departments and 1 associates and 2 properties and 12 employees and 1 suppliers and the CEO is Chivu Alexandru,2020-06-05 11:08:39.151,main
+Sort employees array ,2020-06-05 11:08:39.256,main
+Created new employee Mircescu Vasile age 27, hireDate '01/04/2020', salary 2800.0, socialSecurityNumber '193021290067', bonus 0.0, reasonForBonus 'null', boss 'Coriiu Razvan',2020-06-05 11:08:39.257,main
+Deleted employee Manole Adina,2020-06-05 11:08:39.258,main
+Deleted department Marketing,2020-06-05 11:08:39.259,main
+Created new department Marketing,2020-06-05 11:08:39.259,main
+Bought new property Audi 2014 blue,2020-06-05 11:08:39.26,main
+Deleted property Audi 2014 blue,2020-06-05 11:08:39.26,main
+Added new associate Cleaning,2020-06-05 11:08:39.261,main
+Created new employee in associate department Mala Rosalinda age 54, hireDate '01/01/2019', salary 1800.0, socialSecurityNumber '2551117190039', bonus 0.0, reasonForBonus 'null', boss '-',2020-06-05 11:08:39.262,main
+Deleted employee from Associate Gavril Ionut,2020-06-05 11:08:39.262,main
+Inserted line in table property,2020-06-05 11:22:34.316,main
+Inserted line in table department,2020-06-05 11:22:34.344,main
+Inserted line in table employee,2020-06-05 11:22:34.359,main
+Deleted line from table supplier,2020-06-05 11:22:34.36,main
+Deleted line from table property,2020-06-05 11:22:34.375,main
+Deleted line from table department,2020-06-05 11:22:34.39,main
+Deleted line from table employee,2020-06-05 11:22:34.405,main
+Updated line in table supplier,2020-06-05 11:22:34.406,main
+Updated line in table property,2020-06-05 11:22:34.407,main
+Updated line in table department,2020-06-05 11:22:34.422,main
+Updated line in table employee,2020-06-05 11:22:34.437,main
+Read from table supplier,2020-06-05 11:22:34.438,main
+Read from table property,2020-06-05 11:22:34.464,main
+Read from table department,2020-06-05 11:22:34.466,main
+Read from table employee,2020-06-05 11:22:34.473,main

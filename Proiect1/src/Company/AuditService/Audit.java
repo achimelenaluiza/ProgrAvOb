@@ -12,7 +12,7 @@ public class Audit {
 
     private Audit(String FileName) {
         try {
-            csvWriter = new FileWriter(FileName, false);
+            csvWriter = new FileWriter(FileName, true);
             //false so it can overwrite the csv file when we run the program
         } catch (IOException e) {
             // FileNotFoundException: no problem (it will be created)
@@ -23,6 +23,7 @@ public class Audit {
     public static void auditData (String data) {
         try {
             audit.csvWriter.append(data + "," + (new Timestamp(System.currentTimeMillis())).toString());
+            audit.csvWriter.append("," + Thread.currentThread().getName());
             audit.csvWriter.append("\n");
             audit.csvWriter.flush();
 

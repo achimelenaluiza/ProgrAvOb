@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fbe401e-6ff7-44cd-a48a-b60e591881be" name="Default Changelist" comment="" />
+    <list default="true" id="2fbe401e-6ff7-44cd-a48a-b60e591881be" name="Default Changelist" comment="insert">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_30_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Company/Sqlite/Connect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Company/Sqlite/ReadTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Company/Sqlite/UpdateLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Audit.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Audit.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proiect1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Proiect1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proiect1/Company/AuditService/Audit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proiect1/Company/AuditService/Audit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Company/AuditService/Audit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Company/AuditService/Audit.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,14 +25,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1a5QVxkWqdFCZbBHaCqIWcsCkW5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Department.class" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../testdata/connect/sqlite-jdbc-3.30.1.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -32,13 +51,39 @@
       <recent name="Company.Property" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DefineCompany">
+  <component name="RunManager" selected="Application.JDBCmain">
+    <configuration name="Connect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Company.Sqlite.Connect" />
+      <module name="Proiect1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Company.Sqlite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DefineCompany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Company.DefineCompany" />
       <module name="Proiect1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Company.Property.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCmain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Company.JDBCmain" />
+      <module name="Proiect1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Company.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,7 +106,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JDBCmain" />
         <item itemvalue="Application.DefineCompany" />
+        <item itemvalue="Application.Connect" />
         <item itemvalue="Application.Services" />
       </list>
     </recent_temporary>
@@ -82,11 +129,19 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="insert" />
+    <option name="LAST_COMMIT_MESSAGE" value="insert" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="672" y="189" width="652" height="770" key="#com.intellij.ide.util.MemberChooser" timestamp="1587839569840">
+    <state x="649" y="341" width="759" height="438" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591335616344">
       <screen x="86" y="34" width="1834" height="1046" />
     </state>
-    <state x="672" y="189" width="652" height="770" key="#com.intellij.ide.util.MemberChooser/86.34.1834.1046@86.34.1834.1046" timestamp="1587839569840" />
+    <state x="649" y="341" width="759" height="438" key="#com.intellij.fileTypes.FileTypeChooser/86.34.1834.1046@86.34.1834.1046" timestamp="1591335616344" />
+    <state x="672" y="189" width="652" height="770" key="#com.intellij.ide.util.MemberChooser" timestamp="1591343821336">
+      <screen x="86" y="34" width="1834" height="1046" />
+    </state>
+    <state x="672" y="189" width="652" height="770" key="#com.intellij.ide.util.MemberChooser/86.34.1834.1046@86.34.1834.1046" timestamp="1591343821336" />
     <state x="670" y="292" width="655" height="555" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1587764770055">
       <screen x="86" y="34" width="1834" height="1046" />
     </state>
@@ -99,26 +154,30 @@
       <screen x="86" y="34" width="1834" height="1046" />
     </state>
     <state x="670" y="247" width="655" height="626" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/86.34.1834.1046@86.34.1834.1046" timestamp="1586078518834" />
-    <state x="733" y="258" width="530" height="605" key="FileChooserDialogImpl" timestamp="1587758916014">
+    <state x="450" y="51" width="1096" height="1018" key="CommitChangelistDialog2" timestamp="1591336665176">
       <screen x="86" y="34" width="1834" height="1046" />
     </state>
-    <state x="733" y="258" width="530" height="605" key="FileChooserDialogImpl/86.34.1834.1046@86.34.1834.1046" timestamp="1587758916014" />
-    <state width="1778" height="321" key="GridCell.Tab.0.bottom" timestamp="1587840381851">
+    <state x="450" y="51" width="1096" height="1018" key="CommitChangelistDialog2/86.34.1834.1046@86.34.1834.1046" timestamp="1591336665176" />
+    <state x="733" y="258" width="878" height="612" key="FileChooserDialogImpl" timestamp="1591275895084">
       <screen x="86" y="34" width="1834" height="1046" />
     </state>
-    <state width="1778" height="321" key="GridCell.Tab.0.bottom/86.34.1834.1046@86.34.1834.1046" timestamp="1587840381851" />
-    <state width="1778" height="321" key="GridCell.Tab.0.center" timestamp="1587840381850">
+    <state x="733" y="258" width="878" height="612" key="FileChooserDialogImpl/86.34.1834.1046@86.34.1834.1046" timestamp="1591275895084" />
+    <state width="1778" height="162" key="GridCell.Tab.0.bottom" timestamp="1591344518914">
       <screen x="86" y="34" width="1834" height="1046" />
     </state>
-    <state width="1778" height="321" key="GridCell.Tab.0.center/86.34.1834.1046@86.34.1834.1046" timestamp="1587840381850" />
-    <state width="1778" height="321" key="GridCell.Tab.0.left" timestamp="1587840381850">
+    <state width="1778" height="162" key="GridCell.Tab.0.bottom/86.34.1834.1046@86.34.1834.1046" timestamp="1591344518914" />
+    <state width="1778" height="162" key="GridCell.Tab.0.center" timestamp="1591344518913">
       <screen x="86" y="34" width="1834" height="1046" />
     </state>
-    <state width="1778" height="321" key="GridCell.Tab.0.left/86.34.1834.1046@86.34.1834.1046" timestamp="1587840381850" />
-    <state width="1778" height="321" key="GridCell.Tab.0.right" timestamp="1587840381851">
+    <state width="1778" height="162" key="GridCell.Tab.0.center/86.34.1834.1046@86.34.1834.1046" timestamp="1591344518913" />
+    <state width="1778" height="162" key="GridCell.Tab.0.left" timestamp="1591344518913">
       <screen x="86" y="34" width="1834" height="1046" />
     </state>
-    <state width="1778" height="321" key="GridCell.Tab.0.right/86.34.1834.1046@86.34.1834.1046" timestamp="1587840381851" />
+    <state width="1778" height="162" key="GridCell.Tab.0.left/86.34.1834.1046@86.34.1834.1046" timestamp="1591344518913" />
+    <state width="1778" height="162" key="GridCell.Tab.0.right" timestamp="1591344518913">
+      <screen x="86" y="34" width="1834" height="1046" />
+    </state>
+    <state width="1778" height="162" key="GridCell.Tab.0.right/86.34.1834.1046@86.34.1834.1046" timestamp="1591344518913" />
     <state width="1778" height="321" key="GridCell.Tab.1.bottom" timestamp="1587840381852">
       <screen x="86" y="34" width="1834" height="1046" />
     </state>
@@ -135,6 +194,10 @@
       <screen x="86" y="34" width="1834" height="1046" />
     </state>
     <state width="1778" height="321" key="GridCell.Tab.1.right/86.34.1834.1046@86.34.1834.1046" timestamp="1587840381851" />
+    <state x="86" y="34" width="1280" height="1046" key="SettingsEditor" timestamp="1591275908224">
+      <screen x="86" y="34" width="1834" height="1046" />
+    </state>
+    <state x="86" y="34" width="1280" height="1046" key="SettingsEditor/86.34.1834.1046@86.34.1834.1046" timestamp="1591275908224" />
     <state x="578" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1586072692033">
       <screen x="86" y="34" width="1834" height="1046" />
     </state>
@@ -143,9 +206,9 @@
       <screen x="86" y="34" width="1834" height="1046" />
     </state>
     <state x="733" y="178" width="529" height="765" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/86.34.1834.1046@86.34.1834.1046" timestamp="1587760726012" />
-    <state x="583" y="250" key="run.anything.popup" timestamp="1587762649015">
+    <state x="583" y="250" key="run.anything.popup" timestamp="1591344694511">
       <screen x="86" y="34" width="1834" height="1046" />
     </state>
-    <state x="583" y="250" key="run.anything.popup/86.34.1834.1046@86.34.1834.1046" timestamp="1587762649015" />
+    <state x="583" y="250" key="run.anything.popup/86.34.1834.1046@86.34.1834.1046" timestamp="1591344694511" />
   </component>
 </project>
