@@ -30,3 +30,18 @@ Read from table property,2020-06-06 15:45:38.136,AWT-EventQueue-0
 Read from table department,2020-06-06 15:45:38.151,AWT-EventQueue-0
 Read from table employee,2020-06-06 15:45:38.156,AWT-EventQueue-0
 Read from table supplier,2020-06-06 15:45:38.167,AWT-EventQueue-0
+Inserted line in table property,2020-06-06 15:51:17.015,main
+Inserted line in table department,2020-06-06 15:51:17.045,main
+Inserted line in table employee,2020-06-06 15:51:17.061,main
+Deleted line from table supplier,2020-06-06 15:51:17.062,main
+Deleted line from table property,2020-06-06 15:51:17.073,main
+Deleted line from table department,2020-06-06 15:51:17.086,main
+Deleted line from table employee,2020-06-06 15:51:17.095,main
+Updated line in table supplier,2020-06-06 15:51:17.097,main
+Updated line in table property,2020-06-06 15:51:17.097,main
+Updated line in table department,2020-06-06 15:51:17.098,main
+Updated line in table employee,2020-06-06 15:51:17.099,main
+Read from table supplier,2020-06-06 15:51:17.1,main
+Read from table property,2020-06-06 15:51:17.152,main
+Read from table department,2020-06-06 15:51:17.154,main
+Read from table employee,2020-06-06 15:51:17.174,main

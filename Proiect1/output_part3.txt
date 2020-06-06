@@ -1,0 +1,64 @@
+/usr/lib/jvm/java-1.11.0-openjdk-amd64/bin/java -javaagent:/snap/intellij-idea-community/232/lib/idea_rt.jar=46407:/snap/intellij-idea-community/232/bin -Dfile.encoding=UTF-8 -classpath /home/luizaelenaa/Desktop/clona-tema/Proiect1/out/production/Proiect1:/home/luizaelenaa/Desktop/testdata/connect/sqlite-jdbc-3.30.1.jar Company.JDBCmain
+Connection to SQLite has been established.
+[SQLITE_CONSTRAINT]  Abort due to constraint violation (UNIQUE constraint failed: supllier.name)
+Connection to SQLite has been established.
+Line inserted in table property
+Connection to SQlite terminated
+Connection to SQLite has been established.
+Line inserted in table department
+Connection to SQlite terminated
+Connection to SQLite has been established.
+Line inserted in table employee
+Connection to SQlite terminated
+Connection to SQLite has been established.
+Line deleted from table supllier
+Connection to SQlite terminated
+Connection to SQLite has been established.
+Line deleted from table property
+Connection to SQlite terminated
+Connection to SQLite has been established.
+Line deleted from table department
+Connection to SQlite terminated
+Connection to SQLite has been established.
+Line deleted from table employee
+Connection to SQlite terminated
+Connection to SQLite has been established.
+Line updated in table supllier
+Connection to SQlite terminated
+Connection to SQLite has been established.
+Line updated in table property
+Connection to SQlite terminated
+Connection to SQLite has been established.
+Line updated in table department
+Connection to SQlite terminated
+Connection to SQLite has been established.
+Line updated in table employee
+Connection to SQlite terminated
+Connection to SQLite has been established.
+Table supllier:
+Bookster	books for employees	8000.0	36
+nou2	ceva	15.0	16
+nou3	nou	0.0	0
+Connection to SQlite terminated
+Connection to SQLite has been established.
+Table property:
+BMW 2014 red	25/11/2019	10500.0	12000
+first floor of office building	16/07/2017	240000.0	223156
+Audi 2014 blue	14/03/2020	11500.0	12500
+Connection to SQlite terminated
+Connection to SQLite has been established.
+Table department:
+marketing	2
+production	4
+legal	1
+hr	3
+Connection to SQlite terminated
+Connection to SQLite has been established.
+Table employee:
+Maria P	38	3600.0	01/04/2012
+Mircea G	33	3200.0	15/07/2015
+Alexandru C	42	11230.0	01/01/2011
+Ana M	37	2500.0	15/02/2019
+Connection to SQlite terminated
+
+Process finished with exit code 0
