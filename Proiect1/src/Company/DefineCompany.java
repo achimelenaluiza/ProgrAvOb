@@ -6,11 +6,17 @@ import Company.Property.Others;
 import Company.Property.Property;
 import Company.Services.Services;
 import Company.Services.EntityService;
-
+/*
+    !!!!!!!
+    Inainte de rulare asigurati-va ca fisierele Audit.csv, Employee.csv,Supplier.csv,Department.csv,Property.csv sunt goale.
+    (nu sunt suprascrise, se scrie in continuare)
+ */
 public class DefineCompany {
 
     public static void main(String[] args) {
-
+        /*
+        Functie main corespunzatoare Parte1 + Partea2 din proiect
+        */
         Services services = new Services();
         services.open();
 
@@ -21,8 +27,6 @@ public class DefineCompany {
 
         System.out.println("\nINITIAL COMPANY \n -----------------\n");
         System.out.println(company.toString());
-
-
 
         System.out.println("\nExample of sorting an Employee array based on salary:\n-------------------");
         services.sortEmployees(company.getDepartments()[0].getEmployees());

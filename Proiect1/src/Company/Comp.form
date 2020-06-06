@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Company.Comp">
+  <grid id="27dc6" binding="rootPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="542" y="4" width="1000" height="500"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.0"/>
+      <alignmentY value="0.0"/>
+      <background color="-16777216"/>
+      <foreground color="-1"/>
+      <minimumSize width="1000" height="500"/>
+      <preferredSize width="1000" height="500"/>
+      <requestFocusEnabled value="true"/>
+    </properties>
+    <border type="line">
+      <font size="73" style="1"/>
+      <color color="-1"/>
+    </border>
+    <children>
+      <component id="aa1c2" class="javax.swing.JButton" binding="displayFromDBButton">
+        <constraints/>
+        <properties>
+          <alignmentY value="0.0"/>
+          <borderPainted value="false"/>
+          <font size="24" style="1"/>
+          <maximumSize width="401" height="38"/>
+          <minimumSize width="401" height="38"/>
+          <opaque value="false"/>
+          <preferredSize width="401" height="38"/>
+          <text value="Display from DB"/>
+        </properties>
+      </component>
+      <component id="3381f" class="javax.swing.JTextArea" binding="textArea">
+        <constraints/>
+        <properties>
+          <background color="-1"/>
+          <enabled value="true"/>
+          <font size="10" style="1"/>
+          <lineWrap value="true"/>
+          <minimumSize width="950" height="100"/>
+          <preferredSize width="950" height="400"/>
+          <requestFocusEnabled value="false"/>
+          <selectedTextColor color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e4ad9" class="javax.swing.JButton" binding="CLEARButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <alignmentX value="0.0"/>
+          <font size="24" style="1"/>
+          <text value="CLEAR"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

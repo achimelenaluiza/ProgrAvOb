@@ -3,9 +3,15 @@ import Company.Sqlite.*;
 
 import java.io.IOException;
 import java.nio.CharBuffer;
-
+/*
+La rulare va scrie in continuarea fisierului Audit.csv deja existent
+ */
 public class JDBCmain {
     public static void main(String[] args) {
+        /*
+        Functie main corespunzatoare Partii3 din proiect.
+        Testarea functionalitatilor oferite prin conectarea la baza de date luiza.db
+        */
         InsertLine insertLine = new InsertLine();
         insertLine.insertSupplier("nou3","nou",0,0);
         insertLine.insertProperty("Golf4","25/03/2019",9000,7500);
